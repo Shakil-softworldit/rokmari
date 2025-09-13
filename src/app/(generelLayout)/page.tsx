@@ -1,19 +1,15 @@
-import FeaturedProducts from "@/Component/Page/FeaturedProducts";
+
+import CategoryPage from "@/Component/Page/Category";
 import LaptopSaleBanner from "@/Component/Page/LaptopSaleBanner";
-import LightningDeals from "@/Component/Page/LightningDeals";
-import MegaSalePage from "@/Component/Page/MegaSalePage";
-import ShopCategory from "@/Component/Page/ShopCategory";
-import WhyChooseElectro from "@/Component/Page/WhyChooseElectro";
+// import ProductCarousel from "@/Component/Page/product-carousel";
+
 
 export default function Home() {
   return (
     <div>
       <LaptopSaleBanner />
-      <ShopCategory />
-      <LightningDeals /> 
-      <FeaturedProducts />
-      <MegaSalePage />
-      <WhyChooseElectro />
+      <CategoryPage />
+      {/* <ProductCarousel /> */}
     </div>
   );
 }
