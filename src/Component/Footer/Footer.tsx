@@ -1,4 +1,5 @@
 import { Facebook, Twitter, MessageCircle, Phone, Linkedin, Instagram, Youtube } from "lucide-react"
+import Image from "next/image"
 
 export default function BengaliFooter() {
     return (
@@ -325,17 +326,21 @@ export default function BengaliFooter() {
                             </h4>
                             <div className="flex gap-3">
                                 <a href="#" className="block">
-                                    <img
-                                        src="/placeholder-o050m.png"
-                                        alt="Download on App Store"
-                                        className="h-10"
+                                    <Image
+                                        src="/google-play-download-button.png"
+                                        alt="Get it on Google Play"
+                                        width={120}      
+                                        height={40}       
+                                        className="rounded-lg"
                                     />
                                 </a>
                                 <a href="#" className="block">
-                                    <img
+                                    <Image
                                         src="/google-play-download-button.png"
                                         alt="Get it on Google Play"
-                                        className="h-10"
+                                        width={120}      
+                                        height={40}       
+                                        className="rounded-lg"
                                     />
                                 </a>
                             </div>
