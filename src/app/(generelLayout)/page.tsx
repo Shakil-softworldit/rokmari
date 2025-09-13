@@ -1,7 +1,8 @@
 
 import CategoryPage from "@/Component/Page/Category";
+import RokomariStyleGrid from "@/Component/Page/FouCategory";
 import LaptopSaleBanner from "@/Component/Page/LaptopSaleBanner";
-// import ProductCarousel from "@/Component/Page/product-carousel";
+import ProductCarousel from "@/Component/Page/product-carousel";
 
 
 export default function Home() {
@@ -9,7 +10,8 @@ export default function Home() {
     <div>
       <LaptopSaleBanner />
       <CategoryPage />
-      {/* <ProductCarousel /> */}
+      <ProductCarousel />
+      <RokomariStyleGrid />
     </div>
   );
 }
